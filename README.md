@@ -20,7 +20,7 @@ Radio Zenit is an open source radio station app with robust and professional fea
 - Pull to Refresh stations
 
 ##Important Notes
-- 10.21.15 Update: Added option to use iTunes API to download album art. (See FAQ below). iTunes art is 100px x 100px. i.e. It is smaller than LastFM artwork. So, if you use this API instead, you will want to adjust the UI of your app.
+- Added option to use iTunes API to download album art. (See FAQ below). iTunes art is 100px x 100px. i.e. It is smaller than LastFM artwork. So, if you use this API instead, you will want to adjust the UI of your app.
 - LastFM is working on their API signups. So, you may have trouble signing up for a LastFM key, hopefully they fix that soon. More info in FAQ below.  
 - Volume slider works great in devices, not simulator. This is an Xcode simulator issue.  
 - Radio stations in demo are for demonstration purposes only. 
@@ -56,9 +56,6 @@ Includes an example "stations.json" file. You may upload the JSON file to a serv
 
 - **longDesc**: Long description of the station to be used on the "info screen". This is optional.
 
-##Contributions
-
-Contributions are very welcome. Please create a separate branch (e.g. features/3dtouch). Please do not commit on master.
 
 ##FAQ
 
@@ -86,11 +83,5 @@ A: Paste your stream URL into a browser to see if it will play there. The stream
 Q: The song names aren't appearing for my station?  
 A: Check with your stream provider to make sure they are sending Metadata properly. If a station sends data in a unique way, you can modify the way the app parses the metadata in the "metadataUpdated" method in the NowPlayingViewController.
 
-##RadioKit SDK Example 
-
-![alt text](http://matthewfecher.com/wp-content/uploads/2015/11/radiokit.jpg "RadioKit Example")
-
-- You can use this Swift code as a front-end for a more robust streaming backend.
-- Brian Stormont, creator of RadioKit, has created a branch with the professional [RadioKit](http://stormyprods.com/products/radiokit.php) SDK already integrated. **Plus, his branch adds rewind & fast forward stream playback.** This is an excellent learning tool for those who are interested in seeing how a streaming library integrates with Swift Radio Pro. View the [branch here](https://github.com/MostTornBrain/Swift-Radio-Pro/tree/RadioKit).
 
 
