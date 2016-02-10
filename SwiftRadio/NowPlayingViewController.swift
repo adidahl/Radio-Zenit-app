@@ -51,7 +51,7 @@ class NowPlayingViewController: UIViewController {
         
         currentStation = RadioStation(
             name: "Radio Zenit",
-            streamURL: "http://uzivo.zenit.ba:8020/listen.pls?sid=1",
+            streamURL: "http://zenit.ba:8080/listen.pls?sid=1",
             imageURL: "station-sub.png",
             desc: "100.7 FM",
             longDesc: "Slušanje radija je lično iskustvo i najveća snaga radija je to što je on u stvari sekundarni medij, što znači da ga neometano možete slušati,dok vozite automobil, dok se bavite kućnim aktivnostima ,dok surfate internetom i slično. Cilj nam je da slušaocima uvijek pružimo svježe,objektivne informacije i odličnu zabavu. Radio ZENIT je otvoren za slušaoce svih starosnih skupina, nacionalnih, religijskih i političkih ubjeđenja."
